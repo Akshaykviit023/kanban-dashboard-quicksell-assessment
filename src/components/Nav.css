@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+.nav{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+.navContainer{
+    
+    position: relative;
+    width: 95%;
+}
+
+.displayToggleContainer{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 18rem;
+    padding: 1rem 1.5rem;
+    background-color: #F9FAFB;
+    border: 1px solid #E3E3E5;
+    border-radius: 0.75rem;
+    position: absolute;
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    z-index: 1;
+}
+.displayState{
+    background-color: white;
+    border: 1px solid #dddddd;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+    width: 7.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+select{
+    width: 8rem;
+    background-color: white;
+    border: 1px solid #dddddd;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+}
+.displayToggleContainer button{
+    width: 8rem;
+    background-color: white;
+    border: 1px solid #dddddd;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+}
+.textIcons{
+    color: #888888;
+}
+.groupingItem, .orderingItem{
+    color: #888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

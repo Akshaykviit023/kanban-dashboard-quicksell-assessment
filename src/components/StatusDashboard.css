@@ -1,0 +1,95 @@
+.statusDashboard{
+    background-color: #F4F5F8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+.statusDashboardContainer{
+    width: 95%;
+}
+
+.statusDashboardSections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+}
+
+.statusDashboardSections > div{
+    width: 20rem;
+}
+
+.ticketLength{
+    color: #888888;
+}
+
+.sectionHead{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.75rem;
+}
+
+.sectionName{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.optionToolbar{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #888888;
+}
+
+.userTicketsContainer{
+    
+    display: flex;
+    gap: 3rem;
+}
+
+.usersContainer{
+    width: 20rem;
+}
+
+.priorityLogo{
+    color: #777777;
+}
+
+.priorityLogoUrgent{
+    color: #FC7840;
+}
+
+
+
+.profileImg{
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.photoContainer{
+    position: relative;
+}
+
+.available{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: #E8B602;
+    position: absolute;
+    bottom: 0.25rem;
+    right: -0.1rem;
+}
+.notAvailable{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: #999999;
+    position: absolute;
+    bottom: 0.25rem;
+    right: -0.1rem;
+}
